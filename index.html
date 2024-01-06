@@ -6,8 +6,10 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Snail Farming Tutorial Class</title>
     <link rel="shortcut icon" href="assets/favico.ico" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/3c5dd8b0d1.js" crossorigin="anonymous"></script>
     <style>
-        *{
+        @import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300&family=Lemon&display=swap');   
+         *{
             margin: 0;
             padding: 0;
             box-sizing: border-box;
@@ -27,8 +29,10 @@
         h1{
             color: white;
             margin-block-end: 10px;
-            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            margin-inline: 2px;
+            font-family: 'Lemon', serif;
             text-shadow: 1px 1px 5px green;
+            text-align: center;
         }
         main{
             margin: 25px auto;
@@ -38,13 +42,18 @@
             margin: 5px;
             line-height: 1.2em;
             list-style: outside;
+            font-family: 'Hind Siliguri', sans-serif;
+            font-size: 1.1em;
         }
         button{
             display: block;
             padding: 12px;
         }
         .join{
-            margin: 10px auto;
+            margin: 20px auto;
+        }
+        .join:hover{
+            box-shadow: 3px 12px brown;
         }
         a{
             text-decoration: none;
@@ -54,6 +63,7 @@
             border-radius: 5px;
             border: none;
             color: white;
+            font-family: 'Lemon', serif;
             font-weight: 600;
         }
         button:hover{
@@ -71,13 +81,21 @@
         .increase{
             font-size: 1.2em;
         }
+        .point-to{
+            display: flex;
+            justify-content: center;
+            color: brown;
+        }
+        .point-to i{
+            margin: 5px;
+        }
     </style>
 </head>
 <body>
     <div class="welcome">
-        <img src="assets/icon.jpg" width="70" height="70" alt="">
-        <h1>Welcome to Snail Farming Tutorial</h1>
-        <button class="learn-more"><a href="#learn-more">Learn More!!</a></button>
+        <img src="assets/icon.jpg" width="70" height="70" alt="snail-farming">
+        <h1>Welcome to Snail Farming Training</h1>
+        <a href="https://chat.whatsapp.com/JqmQpYVDWZ5IHYog2qQnj7" target="_blank"><button> Join Class Now</button></a>
     </div>
     <main id="learn-more">
     <p>Ever heard of "slow and steady wins the race"? Welcome to the fascinating world of snail farming, where patience and passion pave the path to profit! Whether you're a seasoned farmer or a curious newcomer, this blog is your one-stop shop for snail farming 101.<p>
@@ -88,12 +106,16 @@
         <li><b>Insider insights: </b> Uncover the secrets of snail breeding, harvesting, and getting the best market price for your precious mollusks.</li>
         <li><b>Inspiring stories:</b> Meet fellow snail farmers who've turned their passion into income, and get motivated by their successes.</li>
         <li><b>Troubleshooting tips: </b> No panic, shell-abrations happen! We'll tackle common challenges and keep your farm slippin' and slidin' smoothly..</li>
-        <li>
-        Get instant answers to your burning snail questions: No waiting, just friendly advice and expert guidance.
+        <li><b>
+        Get instant answers to your burning snail questions: </b>No waiting, just friendly advice and expert guidance.
         </li>
     </ul><br>
-    <p class="increase">So, what are you waiting for? Join our snail-tastic journey on WhatsApp and let's build a thriving gastropod empire together! Click <b class="signup" style="color: brown;">"WhatsApp Channel"</b> and let's get started...</p>
+    <p class="increase">So, what are you waiting for? Join our snail-tastic journey on WhatsApp and let's build a thriving gastropod empire together! Click <b class="signup" style="color: brown;">"Join The Class Now"</b> and let's get started...</p>
 </main>
-<button class="join"><a href="https://chat.whatsapp.com/JqmQpYVDWZ5IHYog2qQnj7" target="_blank"> Join The Class Now</a></button>
+<div class="point-to">
+    <i class="fa-solid fa-hand-point-down fa-bounce fa-lg"></i>
+    <i class="fa-solid fa-hand-point-down fa-bounce fa-lg"></i>
+</div>
+<a href="https://chat.whatsapp.com/JqmQpYVDWZ5IHYog2qQnj7" target="_blank"><button class="join"> Join The Class Now</button></a>
 </body>
 </html>
